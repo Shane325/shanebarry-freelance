@@ -139,3 +139,7 @@
 .feature {
   height: 350px;
 }
+
+.pointer {
+  cursor: pointer;
+}
