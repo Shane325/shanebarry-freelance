@@ -1,0 +1,34 @@
+{
+  "name": "shanebarry-freelance",
+  "version": "1.0.0",
+  "description": "Shane Barrys freelance static website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shane325/shanebarry-freelance.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Gulp"
+  ],
+  "author": "Shane Barry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shane325/shanebarry-freelance/issues"
+  },
+  "homepage": "https://github.com/Shane325/shanebarry-freelance#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "live-server": "^1.2.0"
+  }
+}
