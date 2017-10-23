@@ -6,6 +6,7 @@
   <title>Shane Barry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="Welcome to shanebarry.com">
+  <script src="https://use.fontawesome.com/944c6efdd6.js"></script>
   <link href="dist/css/style.css" rel="stylesheet" type="text/css" media="all" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -89,35 +90,61 @@
     <!--end bar-->
   </div>
   <div class="main-container">
-    <section class="bg--primary-1">
-      <div class="container">
+
+
+    <section class="switchable imagebg height-100" data-overlay="2">
+      <div class="background-image-holder">
+        <img alt="background" src="dist/img/emile-perron-190221-min.jpg" />
+      </div>
+      <div class="container pos-vertical-center">
         <div class="row">
-          <div class="col-md-6 col-sm-9 col-xs-12">
-            <div class="mt--2">
-              <h1>
-                <span class="font-weight-700">Shane Barry</span>
-                <br/> Full-Stack Web Developer
-              </h1>
-              <p class="lead">
-                <span class="h4 inline-block typed-text typed-text--cursor font-weight-900" data-typed-strings="web developer,software engineer,entrepreneur,technical support,javascript,angularjs,nodejs"></span>
-              </p>
-              <a class="btn btn--primary type--uppercase inner-link pointer" href="#contact" data-scroll-class="100vh:active">
-                  <span class="btn__text">
-                    Hire me
-                  </span>
-                </a>
-              <span class="block type--fine-print">or
-                <a class="inner-link pointer" href="#work" data-scroll-class="100vh:active">view my work</a>
+          <div class="col-md-6 col-sm-6 switchable__text">
+            <h1>
+              <span class="font-weight-700">Shane Barry</span>
+              <br/> <span class="font-size-40">Full-Stack Web Developer</span>
+            </h1>
+            <ul class="line-height-1-5 font-size-20">
+              <li><i class="fa fa-angle-right"></i> Website development &nbsp; <i class="fa fa-check green-check"></i></li>
+              <li><i class="fa fa-angle-right"></i> Web app development &nbsp; <i class="fa fa-check green-check"></i></li>
+              <li><i class="fa fa-angle-right"></i> Mobile friendly web apps &nbsp; <i class="fa fa-check green-check"></i></li>
+            </ul>
+            <a class="btn btn--primary type--uppercase inner-link pointer" href="#contact" data-scroll-class="100vh:active">
+                <span class="btn__text">
+                  Hire me
                 </span>
-            </div>
+              </a>
+            <span class="block type--fine-print">or
+                <a class="inner-link pointer" href="#work" data-scroll-class="100vh:active">view my work</a>
+              </span>
           </div>
-          <div class="col-md-6">
-            <img class="unmarg--bottom box-shadow-wide" alt="Image" src="dist/img/device-4.png" />
-            <div class="bg--dark box-shadow-wide">
-              <img class="unmarg--bottom" alt="Image" src="dist/img/jantine-doornbos-398339.jpg" />
+          <div class="col-md-6 col-sm-6">
+            <div class="boxed boxed--lg boxed--border boxed-form">
+              <h4 class="font-weight-600">Have an idea or interesting project? Let's turn it into a real world application.</h4>
+              <form action="https://formspree.io/shane325@gmail.com" method="POST">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <input type="text" name="name" placeholder="First Name" />
+                  </div>
+                  <div class="col-xs-12">
+                    <input type="email" name="email" placeholder="Email Address" />
+                  </div>
+                  <div class="col-xs-12">
+                    <textarea type="text" name="message" placeholder="Tell me about your project..." rows="3"></textarea>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="submit" class="btn btn--primary type--uppercase">Get started</button>
+                  </div>
+                  <div class="col-xs-12">
+                    <span class="type--fine-print underline"><em>Expect to hear back from me in an hour or so.</em>
+                    </span>
+                  </div>
+                </div>
+                <!--end row-->
+              </form>
             </div>
           </div>
         </div>
+        <!--end of row-->
       </div>
       <!--end of container-->
     </section>
@@ -178,7 +205,7 @@
           <div class="masonry__item col-sm-6 text-center" data-masonry-filter="Print">
             <div class="project-thumb">
               <a href="https://www.minervaconstructioninc.com" target="_blank">
-                <img alt="Image" class="border--round" src="dist/img/minerva.png" />
+                <img alt="Image" class="border--round" src="dist/img/minerva-min.png" />
               </a>
               <h4>Minerva Construction Inc.</h4>
               <span>Website Development &amp; Design</span>
@@ -189,7 +216,7 @@
           <div class="masonry__item col-sm-6 text-center" data-masonry-filter="Print">
             <div class="project-thumb">
               <a href="http://www.buildeasyapp.com" target="_blank">
-                <img alt="Image" class="border--round" src="dist/img/buildeasy.png" />
+                <img alt="Image" class="border--round" src="dist/img/buildeasy-min.png" />
               </a>
               <h4>Build Easy Inc.</h4>
               <span>Full Stack SaaS Platform</span>
@@ -270,7 +297,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-4 col-md-4">
             <div class="testimonial testimonial-2">
               <div class="testimonial__body boxed boxed--border bg--secondary">
                 <p>
@@ -278,13 +305,13 @@
                 </p>
               </div>
               <div class="testimonial__image">
-                <img alt="Image" src="dist/img/minerva-logo.jpg" class="img-responsive" />
+                <img alt="Image" src="dist/img/minerva-logo-min.jpg" class="img-responsive" />
                 <h5>Brian H.</h5>
                 <span>Minerva Construction Inc.</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-4 col-md-4">
             <div class="testimonial testimonial-2">
               <div class="testimonial__body boxed boxed--border bg--secondary">
                 <p>
@@ -292,13 +319,13 @@
                 </p>
               </div>
               <div class="testimonial__image">
-                <img alt="Image" src="dist/img/rua-logo.jpg" class="img-responsive" height="100" width="100" />
+                <img alt="Image" src="dist/img/rua-logo-min.jpg" class="img-responsive" height="100" width="100" />
                 <h5>Tracy D.</h5>
                 <span>Rua Business Inc.</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-4 col-md-4">
             <div class="testimonial testimonial-2">
               <div class="testimonial__body boxed boxed--border bg--secondary">
                 <p>
@@ -306,23 +333,9 @@
                 </p>
               </div>
               <div class="testimonial__image">
-                <img alt="Image" src="dist/img/westlakepro-logo.jpg" class="img-responsive" height="100" width="100" />
+                <img alt="Image" src="dist/img/westlakepro-logo-min.jpg" class="img-responsive" height="100" width="100" />
                 <h5>Dean P.</h5>
                 <span>Westlake Pro</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="testimonial testimonial-2">
-              <div class="testimonial__body boxed boxed--border bg--secondary">
-                <p>
-                  We hired Shane as a technical consultant and he has helped us tremendously with our IT needs. As a result, our productivity and business workflows have improved considerably.
-                </p>
-              </div>
-              <div class="testimonial__image">
-                <img alt="Image" src="dist/img/avatar-placeholder.png" />
-                <h5>Chris D.</h5>
-                <span>Chris Downey Consultant</span>
               </div>
             </div>
           </div>
@@ -444,7 +457,7 @@
             </div>
             <div>
               <span class="type--fine-print">Made in California</span>
-              <img alt="Image" class="flag" src="dist/img/flag-1.png" />
+              <img alt="Image" class="flag" src="dist/img/flag-1-min.png" />
             </div>
             <div>
               <span class="type--fine-print">&copy;
